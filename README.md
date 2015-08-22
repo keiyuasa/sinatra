@@ -12,13 +12,14 @@ vendor:  required
 How to Run:
 
 (1) In this directory, execute "bundle install".  This is one time only
-(2) Start up Mongo db
-(3) Execute "bundle exec ruby app.rb"
-(4) From Browser, access to http://localhost:4567/
-(5) Click "create" once (for test data)
-(6) Stop the server
-(7) Execute "bundle exec ruby api.rb"
-(8) Access to http://localhost:4567/ 
+(2) Configure mongoid.yml according to your environment
+(3) Start up Mongo db
+(4) Execute "bundle exec ruby app.rb"
+(5) From Browser, access to http://localhost:4567/
+(6) Click "create" once (for test data)
+(7) Stop the server
+(8) Execute "bundle exec ruby api.rb"
+(9) Access to http://localhost:4567/ 
     You can use Advanced Rest Client (Chrome extension) or curl
     
     GET http://localhost:4567/  returns all restaurants in DB
