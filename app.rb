@@ -10,8 +10,6 @@ Mongoid.load!('./mongoid.yml')
 class Restaurant
   include Mongoid::Document
   field :title,   type: String
-  field :article, type: String
-  embeds_many :store
   field :id,   type: String
   field :active, type: Boolean
   field :categories, type: Array # list of integers
