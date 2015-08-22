@@ -15,7 +15,7 @@ How to Run:
 (2) Start up Mongo db
 (3) Execute "bundle exec ruby app.rb"
 (4) From Browser, access to http://localhost:4567/
-(5) Click "create" for several times (for creating test data)
+(5) Click "create" once (for test data)
 (6) Stop the server
 (7) Execute "bundle exec ruby api.rb"
 (8) Access to http://localhost:4567/ 
