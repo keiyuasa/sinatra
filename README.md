@@ -1,11 +1,11 @@
 # Sinatra program for Fluc
 
 ### Files  
-api.rb;  Ruby Program with Sinatra to provide Restful APIs for Restaurant  
-app.rb:  Ruby Program with Sinatra to put some data into the Mongo DB  
-mongoid.yml:  Connector to Mongo DB  
-Gemfile:  Ruby file for executing api.rb and app.rb  
-vendor:  required
+*api.rb;  Ruby Program with Sinatra to provide Restful APIs for Restaurant  
+*app.rb:  Ruby Program with Sinatra to put some data into the Mongo DB  
+*mongoid.yml:  Connector to Mongo DB  
+*Gemfile:  Ruby file for executing api.rb and app.rb  
+*vendor:  Library
 
 
 ### How to Run  
